@@ -6,4 +6,4 @@ def find_largest_number(numbers):
 
 # Test the function
 if __name__ == "__main__":
-    print(find_largest_number([3, 1, 4, 1, 5, 9]))  # Expected output: 9
+    print(find_largest_number([3, 2, 4, 1, 5, 9]))  # Expected output: 9
