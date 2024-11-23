@@ -1,7 +1,8 @@
 def find_largest_number(numbers):
     if not numbers:
         return None
-    return max(numbers)
+    numbers.sort()
+    return numbers[-1]
 
 # Test the function
 if __name__ == "__main__":
